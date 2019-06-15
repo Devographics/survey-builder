@@ -1,0 +1,26 @@
+{
+  "name": "survey-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.3.1"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "@ekino/config": "https://github.com/ekino/node-config.git#c315b9d44476e0ca71c711202ed2c4870b10b011",
+    "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "fs-extra": "^8.0.1",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^1.17.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "survey:create": "node --experimental-modules index.mjs"
+  }
+}

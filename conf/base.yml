@@ -1,0 +1,335 @@
+typeform:
+    api: https://api.typeform.com
+    token: none
+
+countries:
+    - United States
+    - United Kingdom
+    - China
+    - Canada
+    - United Arab Emirates
+    - Australia
+    - Andorra
+    - Afghanistan
+    - Antigua and Barbuda
+    - Anguilla
+    - Albania
+    - Armenia
+    - Angola
+    - Antarctica
+    - Argentina
+    - American Samoa
+    - Austria
+    - Aruba
+    - Azerbaijan
+    - Bosnia and Herzegovina
+    - Barbados
+    - Bangladesh
+    - Belgium
+    - Burkina Faso
+    - Bulgaria
+    - Bahrain
+    - Burundi
+    - Benin
+    - Saint Barthelemy
+    - Bermuda
+    - Brunei
+    - Bolivia
+    - Brazil
+    - Bahamas, The
+    - Bhutan
+    - Bouvet Island
+    - Botswana
+    - Belarus
+    - Belize
+    - Cocos (Keeling) Islands
+    - Congo, Democratic Republic of the
+    - Central African Republic
+    - Congo, Republic of the
+    - Switzerland
+    - Cote d'Ivoire
+    - Cook Islands
+    - Chile
+    - Cameroon
+    - Colombia
+    - Costa Rica
+    - Cuba
+    - Cape Verde
+    - Curacao
+    - Christmas Island
+    - Cyprus
+    - Czech Republic
+    - Germany
+    - Djibouti
+    - Denmark
+    - Dominica
+    - Dominican Republic
+    - Algeria
+    - Ecuador
+    - Estonia
+    - Egypt
+    - Western Sahara
+    - Eritrea
+    - Spain
+    - Ethiopia
+    - Finland
+    - Fiji
+    - Falkland Islands (Islas Malvinas)
+    - Micronesia, Federated States of
+    - Faroe Islands
+    - France
+    - France, Metropolitan
+    - Gabon
+    - Grenada
+    - Georgia
+    - French Guiana
+    - Guernsey
+    - Ghana
+    - Gibraltar
+    - Greenland
+    - Gambia, The
+    - Guinea
+    - Guadeloupe
+    - Equatorial Guinea
+    - Greece
+    - South Georgia and the Islands
+    - Guatemala
+    - Guam
+    - Guinea-Bissau
+    - Guyana
+    - Hong Kong (SAR China)
+    - Heard Island and McDonald Islands
+    - Honduras
+    - Croatia
+    - Haiti
+    - Hungary
+    - Indonesia
+    - Ireland
+    - Israel
+    - Isle of Man
+    - India
+    - British Indian Ocean Territory
+    - Iraq
+    - Iran
+    - Iceland
+    - Italy
+    - Jersey
+    - Jamaica
+    - Jordan
+    - Japan
+    - Kenya
+    - Kyrgyzstan
+    - Cambodia
+    - Kiribati
+    - Comoros
+    - Saint Kitts and Nevis
+    - Korea, South
+    - Kuwait
+    - Cayman Islands
+    - Kazakhstan
+    - Laos
+    - Lebanon
+    - Saint Lucia
+    - Liechtenstein
+    - Sri Lanka
+    - Liberia
+    - Lesotho
+    - Lithuania
+    - Luxembourg
+    - Latvia
+    - Libya
+    - Morocco
+    - Monaco
+    - Moldova
+    - Montenegro
+    - Saint Martin
+    - Madagascar
+    - Marshall Islands
+    - Macedonia
+    - Mali
+    - Burma
+    - Mongolia
+    - Macau (SAR China)
+    - Northern Mariana Islands
+    - Martinique
+    - Mauritania
+    - Montserrat
+    - Malta
+    - Mauritius
+    - Maldives
+    - Malawi
+    - Mexico
+    - Malaysia
+    - Mozambique
+    - Namibia
+    - New Caledonia
+    - Niger
+    - Norfolk Island
+    - Nigeria
+    - Nicaragua
+    - Netherlands
+    - Norway
+    - Nepal
+    - Nauru
+    - Niue
+    - New Zealand
+    - Oman
+    - Panama
+    - Peru
+    - French Polynesia
+    - Papua New Guinea
+    - Philippines
+    - Pakistan
+    - Poland
+    - Saint Pierre and Miquelon
+    - Pitcairn Islands
+    - Puerto Rico
+    - Gaza Strip
+    - West Bank
+    - Portugal
+    - Palau
+    - Paraguay
+    - Qatar
+    - Reunion
+    - Romania
+    - Serbia
+    - Russia
+    - Rwanda
+    - Saudi Arabia
+    - Solomon Islands
+    - Seychelles
+    - Sudan
+    - Sweden
+    - Singapore
+    - Saint Helena, Ascension, and Tristan da Cunha
+    - Slovenia
+    - Svalbard
+    - Slovakia
+    - Sierra Leone
+    - San Marino
+    - Senegal
+    - Somalia
+    - Suriname
+    - South Sudan
+    - Sao Tome and Principe
+    - El Salvador
+    - Sint Maarten
+    - Syria
+    - Swaziland
+    - Turks and Caicos Islands
+    - Chad
+    - French Southern and Antarctic Lands
+    - Togo
+    - Thailand
+    - Tajikistan
+    - Tokelau
+    - Timor-Leste
+    - Turkmenistan
+    - Tunisia
+    - Tonga
+    - Turkey
+    - Trinidad and Tobago
+    - Tuvalu
+    - Taiwan, Province of China
+    - Tanzania
+    - Ukraine
+    - Uganda
+    - United States Minor Outlying Islands
+    - Uruguay
+    - Uzbekistan
+    - Holy See (Vatican City)
+    - Saint Vincent and the Grenadines
+    - Venezuela
+    - British Virgin Islands
+    - Virgin Islands
+    - Vietnam
+    - Vanuatu
+    - Wallis and Futuna
+    - Samoa
+    - Kosovo
+    - Yemen
+    - Mayotte
+    - South Africa
+    - Zambia
+    - Zimbabwe
+
+wording:
+    feature_usage:
+        never_heard: 🤷 Never heard of it/Not sure what it is
+        heard: ✅ Know what it is, but haven't used it
+        used: 👍 I've used it
+
+    tool_usage:
+        never_heard: I've never heard of it
+        not_interested: I've HEARD of it, and am NOT interested
+        interested: I've HEARD of it, and WOULD like to learn it
+        would_use: I've USED it before, and WOULD use it again
+        would_not_use: I've USED it before, and would NOT use it again
+
+    agreement:
+        strongly_disagree: Strongly Disagree
+        disagree: Disagree
+        neutral: Neutral
+        agree: Agree
+        strongly_agree: Strongly Agree
+        
+    reasons:
+        # like
+        elegant_programming_style_patterns: ⚙️ Elegant programming style & patterns
+        robust_less_error_prone_code: 🐞 Robust, less error-prone code
+        rich_package_ecosystem: 🎁 Rich package ecosystem
+        fast_performance: ⚡ Fast performance
+        well_established_option: 🏛️ Well-established option
+        easy_learning_curve: 👶 Easy learning curve
+        powerful_developer_tooling: 🔧 Powerful developer tooling
+        good_documentation: 📖 Good documentation
+        backed_by_a_great_team_company: 👫 Backed by a great team/company
+        simple_lightweight: 🎈 Simple & lightweight
+        growing_momentum_popularity: 📉 Growing momentum/popularity
+        full_featured_powerful: 🕹️ Full-featured & powerful
+        stable_backwards_compatible: ⚖️ Stable & backwards-compatible
+        # dislike
+        clumsy_programming_style: ⚙️ Clumsy programming style
+        buggy_error_prone_code: 🐞 Buggy, error-prone code
+        poor_performance: ⚡ Poor performance
+        small_package_ecosystem: 🎁 Small package ecosystem
+        new_untested_option: 🏛️ New untested option
+        hard_learning_curve: 👶 Hard learning curve
+        lacking_developer_tooling: 🔧 Lacking developer tooling
+        bad_documentation: 📖 Bad documentation
+        concerns_about_the_team_company: 👫 Concerns about the team/company
+        bloated_complex: 🎈 Bloated & complex
+        diminishing_momentum_popularity: 📉 Diminishing momentum/popularity
+        limited_lacking_in_features: 🕹️ Limited & lacking in features
+        fast_changing_breaks_often: ⚖️ Fast-changing & breaks often
+
+    gender:
+        title: Your Gender
+        female: Female
+        male: Male
+        non_binary: Non-Binary/Third Gender
+        prefer_not_to_say: Prefer not to say
+
+    company_size:
+        title: Company Size
+        '1': Just me
+        '1_5': 1-5 people
+        '5_10': 5-10 people
+        '10_20': 10-20 people
+        '20_50': 20-50 people
+        '50_100': 50-100 people
+        '100_1000': 100-1000 people
+        more_than_1000: 1000+ people
+
+    salary_range:
+        title: Yearly Salary
+        none: I work for free :(
+        '0_10': $0-$10k
+        '10_30': $10k-$30k
+        '30_50': $30k-$50k
+        '50_100': $50k-$100k
+        '100_200': $100k-$200k
+        200_more: $200k+
+
+    country:
+        title: Your Country

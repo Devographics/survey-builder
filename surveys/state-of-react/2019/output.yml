@@ -1,0 +1,3343 @@
+id: iUc9zT
+title: State of React
+theme:
+  href: 'https://api.typeform.com/themes/6lPNE6'
+workspace:
+  href: 'https://api.typeform.com/workspaces/EaVTge'
+settings:
+  is_public: false
+  is_trial: true
+  language: en
+  progress_bar: proportion
+  show_progress_bar: true
+  show_typeform_branding: true
+  meta:
+    allow_indexing: false
+thankyou_screens:
+  - ref: default_tys
+    title: |-
+      Thanks for completing this typeform
+      Now *create your own* — it's free, easy, & beautiful
+    properties:
+      show_button: true
+      share_icons: false
+      button_mode: redirect
+      button_text: Create a *typeform*
+      redirect_url: >-
+        https://admin.typeform.com/powered-by?utm_campaign=iUc9zT&utm_source=typeform.com-13542080-Basic&utm_medium=typeform&utm_content=typeform-thankyoubutton&utm_term=EN
+    attachment:
+      type: image
+      href: 'https://images.typeform.com/images/2dpnUBBkz2VN'
+fields:
+  - id: PGNHsnAnem2u
+    title: Animation
+    ref: animation
+    properties:
+      description: 'When it comes to animate things in React, which tool do you use?'
+      show_button: true
+      button_text: Continue
+      fields:
+        - id: QBJ5oqin8vTW
+          title: react-motion
+          ref: react_motion_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: EA2MIauVN5AK
+                ref: never_heard
+                label: I've never heard of it
+              - id: nyBJVnACHeaD
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: owTyPuFegaQR
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: g0ZvPXiibwYG
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: F8pS5svBUa56
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: aktzHAek8mcw
+          title: "What do you *like* \U0001F44D about *react-motion*?"
+          ref: react_motion_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: tu6UeftKE1Z1
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: l08NczDlG5af
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: ZHNlnPc26B5R
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: Q5orRGdWf7pc
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: FjPBgpP5KD9Y
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: TT2jDaFSXs7o
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: cbzESr5ihH2T
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: s9HU9hTwKsyZ
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: daOiOx2tTUPg
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: nHcEtJjrT9ja
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: oE6SKsNqb9C8
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: e3rCRK0CT3M7
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: NNgS4bDibp0A
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: t7coK3xegGvI
+          title: "What do you *dislike* \U0001F44E about *react-motion*?"
+          ref: react_motion_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: DLtUruQ7CRuB
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: WflMth3MXpxj
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: k8gpIEtFJPb8
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: hFRELVHMW9zE
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: zXxnLYSXULUQ
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: cJgNwNXfrZdG
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: fy4sDiD6Lxfg
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: cT3XdgfTiqWk
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: UmUqFI5zqhkM
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: MTpy7atPQCO4
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: Bt5lnJGEds1X
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: pPPTUHpLyEQF
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: bZ7lUsO001lb
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: m5yZOezaCRBR
+          title: react-spring
+          ref: react_spring_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: GJHnYKscqiFE
+                ref: never_heard
+                label: I've never heard of it
+              - id: KA7EAMkUPJjJ
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: xj2upE2oGH26
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: iWBgeB3iqNtK
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: BRAkewNXuzfo
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: x9Bn5HiV6z7A
+          title: "What do you *like* \U0001F44D about *react-spring*?"
+          ref: react_spring_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: fZZd35niGbPg
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: pA29uJYFlaWt
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: CI1BhWLjh8a3
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: pzUPwgLEsgvx
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: G2PgyzzpVjQG
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: Tuu7wlk7VsqC
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: kil7iePFMHB6
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: C6thoRGwmqU2
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: COuZPyjU0Ji8
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: Y9k7wD2KG073
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: X4N7QmkO8X11
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: euHOJw9ArWet
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: hHUnuHvyDF7D
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: gT6TCLkzoZ9h
+          title: "What do you *dislike* \U0001F44E about *react-spring*?"
+          ref: react_spring_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: BnQPBVrgOA6K
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: MRKonmOq5lJ1
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: FPope6DM6AgS
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: isemf94wcbHg
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: IzCIhd8lbjSA
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: xAUwJFGR2pRq
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: NWhzlxzC5OKB
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: unFBv99sG7du
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: xEbrJ7XCoCHb
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: mp1TACJdzUrh
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: L9F6OvIDv6v4
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: brw2teXqErLH
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: bmziZt6sCo3Q
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: kRVQ1CrRRtdL
+          title: >-
+            Other animation options (please add a line break between each
+            option)
+          ref: animation_other
+          validations:
+            required: false
+          type: long_text
+    type: group
+  - id: mABORZ1FjNpk
+    title: State Management
+    ref: state_management
+    properties:
+      description: How do you deal with state management in your React applications?
+      show_button: true
+      button_text: Continue
+      fields:
+        - id: WDnICmuR4DTH
+          title: redux
+          ref: redux_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: XWSlmr9bfZJ5
+                ref: never_heard
+                label: I've never heard of it
+              - id: nugKwbeMC8Xt
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: BmfFhBjkeGLS
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: urdLpsT6VqKb
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: uXG4o0icmJJF
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: Yg4cO3ZwWTQE
+          title: "What do you *like* \U0001F44D about *redux*?"
+          ref: redux_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: vT7zI6l4Ykxt
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: dK7zK4lB4paH
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: a5ELR3LPA2Nr
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: AXPGdjdbwNtl
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: FneFAkVCpoZw
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: D61V2TkGIMuK
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: sIKeXJB2eLYx
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: lvtbDdptSGKw
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: qNk1bB110R1C
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: l21mFyN0TsUV
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: joDSgHVzrqu6
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: JLIF3nVzCayS
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: rmZXTxtJAo1V
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: ge5xhaCLU1ux
+          title: "What do you *dislike* \U0001F44E about *redux*?"
+          ref: redux_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: eBAJ0zTrwSgS
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: afbNKhPcep3j
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: vI3pYrdxKifp
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: xxtCNQuC5Baw
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: N25mr6tt628V
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: ScdIEA0Uz4bZ
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: N3KafmXlsr9x
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: eBTnJOXmHw7g
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: I3e1MXAAhwxQ
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: uDvWkhdhXiFI
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: fgIqrwfRLxGi
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: TTRFpeeUx1Zv
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: k3QWMid6v0Tl
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: QEqFg3w6HPVR
+          title: unstated
+          ref: unstated_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: MN6WtPmzqUlH
+                ref: never_heard
+                label: I've never heard of it
+              - id: LFYE05mhxL5s
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: yNz0L066RCoA
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: QuZMSFg0HFQD
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: vkDwm6x3P15B
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: IWbqSkbvlGxG
+          title: "What do you *like* \U0001F44D about *unstated*?"
+          ref: unstated_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: Q0whrNPbRf41
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: GucaDk1FVhdS
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: QsW8tczC5h9m
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: ApdPJSyRDlWk
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: FJMefNAk1teE
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: OhnaPGdNRTTa
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: zfnUXpd7i0hW
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: h2XvH7GuT1cB
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: K9Myp46QYYBs
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: mUGG0EulDOGL
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: dCYthYvzHgsZ
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: eM88rzhBHO0x
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: TNeO35k97Ntb
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: y7l5yynYVKzB
+          title: "What do you *dislike* \U0001F44E about *unstated*?"
+          ref: unstated_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: KQnaZhgamsZG
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: ubaERoKTMXJm
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: OQ4UpytbaCYD
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: dzaNe3SbAzm6
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: CDbvhv6HLElJ
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: zKnBKzgDE3FV
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: rAhQqk852iVS
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: YPiIxGmLsQSA
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: L5pr0GCpxQIz
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: BR6d3nMNKZnC
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: pP09CrULIy6i
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: M1WEKC6HQU0Y
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: nEJqNVPeUC9U
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: zHiwHSWIPzru
+          title: mobx
+          ref: mobx_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: KiqfO85UWfzU
+                ref: never_heard
+                label: I've never heard of it
+              - id: Wma52ZXAg7P6
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: o2ngBgczaPeH
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: p7HUYhC9ff2F
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: FkF63IYln1Q9
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: epGrC1W8nhpl
+          title: "What do you *like* \U0001F44D about *mobx*?"
+          ref: mobx_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: gd9zmiFpxWbQ
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: bwbkULgPEqqw
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: pR9L4EwkCsb7
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: CuxdGvHE2Vfj
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: j18QSt0FtrjO
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: pIcCTA5k8PCF
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: T3WWHCVwlsZu
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: a2UmRqZlKZrN
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: Dks0cmxqdNpP
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: jbcSxEKBtKr9
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: ihSIT1vi1Dvc
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: O0hhf4dXg61u
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: sDBTD4TyMgbW
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: Zx9Cq13iG8DE
+          title: "What do you *dislike* \U0001F44E about *mobx*?"
+          ref: mobx_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: KQKR1vzXnoW8
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: SI3WCprcuvBM
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: RmVeL47g4gRw
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: NPPsKzXUoXRW
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: ZAObUDCcYCyF
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: Vsrb9ymuI1lQ
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: VMGgihQ4W9F3
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: FRfgmrCNbdAP
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: f1mXZZzl1Xra
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: I4d38uxW0NPC
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: XJxk9weIuVsj
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: UBFRc0TzpI7y
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: Oi3qfVp5S7kJ
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: C55TVLjofnRx
+          title: apollo-link-state
+          ref: apollo_link_state_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: l4SD0AmppWhr
+                ref: never_heard
+                label: I've never heard of it
+              - id: OW59eOa0hVnD
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: NjoJVmFKaBvz
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: aVsmoTxgHJmc
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: Z2QebnUclyCP
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: DRtYPN79xEuo
+          title: "What do you *like* \U0001F44D about *apollo-link-state*?"
+          ref: apollo_link_state_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: S7F4G4rOeIQl
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: uM6TT2oRsyD7
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: xnZ1NNeDG6m5
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: vqM8PnK7gRGb
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: q6wQkXvx5saa
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: OFHydtF1aMdM
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: VBFYy2JNuAVS
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: PZKHr1zwt05o
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: YOndScbfMZxc
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: UZ0AtQE2ckco
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: cGujrOulukwO
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: JRm8UvpBqnwQ
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: n8nltk9ZNPoO
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: o8GpGOYYxmMo
+          title: "What do you *dislike* \U0001F44E about *apollo-link-state*?"
+          ref: apollo_link_state_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: jCsyRX3FrYqc
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: hcV60olGvSUl
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: INfltuRekT9O
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: cFcgij39f0k8
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: dcqHbOewmUCD
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: MfIg3iTx8xdB
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: KIKp9qoEZN0n
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: q2ExGQIkDHd2
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: Z20wOsS1heIs
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: zJtxB4neWncR
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: kaQcIG9DqqnD
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: qICFDDK4rkLJ
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: wc6yZYJQigpN
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: omMlOj1DbkVs
+          title: relay
+          ref: relay_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: BqDgMAD7y3ks
+                ref: never_heard
+                label: I've never heard of it
+              - id: ZnZHXzaO3W53
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: tXF1p1qGXgWI
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: YWvyf1IJ8hrp
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: kBLdSQ2QnwVm
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: TTpKYu0WJ3jg
+          title: "What do you *like* \U0001F44D about *relay*?"
+          ref: relay_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: V3KBhdgP9akm
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: uTdBtk5NzwzD
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: GhXM6nsTXr6o
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: sahEFRsc7lGr
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: FyU0wVrXhKlS
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: jx18FSpPo29S
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: pW6ZK7ZTvpNc
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: cGiF67QAwWN1
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: RYaqvRtW2UaV
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: hlpgrshrGzG7
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: Nl8L6OTKkY3G
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: rRSLIHdJHXGi
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: DpSqN8TIv3ll
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: dA7yqMaU3Stu
+          title: "What do you *dislike* \U0001F44E about *relay*?"
+          ref: relay_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: bgfa0OMTXaX2
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: CJFdFsWQrVQr
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: cG3TZIZS6Ksf
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: aH1N60Luqo3i
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: Uqwr4voY0004
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: uifunL1WXnB8
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: MRoINWKoUgYd
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: G2BDpXQPHrG4
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: RNl3bwUgbQUN
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: c45DNom1bsyN
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: YYBOQCGYNhDl
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: fOYPq8lrHkkE
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: kOXqtb0ANbDe
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: PUm3hpbWawyX
+          title: >-
+            Other state management options (please add a line break between each
+            option)
+          ref: state_management_other
+          validations:
+            required: false
+          type: long_text
+    type: group
+  - id: iyVerhHrqgDl
+    title: Styling
+    ref: styling
+    properties:
+      description: How do you manage styles in your React applications?
+      show_button: true
+      button_text: Continue
+      fields:
+        - id: QWVKVpLRafOn
+          title: styled-components
+          ref: styled_components_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: DI7N7dJLOAK3
+                ref: never_heard
+                label: I've never heard of it
+              - id: xo2h8jRAk6Xw
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: ZzzzLsllJ7DX
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: IX1tJ7Xm2bPT
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: NDDnJyKgowIW
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: JnAoQdB3xLhV
+          title: "What do you *like* \U0001F44D about *styled-components*?"
+          ref: styled_components_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: w0wVCZh6C7Fo
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: nrCrecNBd1TB
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: K17auWtCOl12
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: QU4bQTgqyYvO
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: Cr62KeWjRVKq
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: YFHLFkzydwdR
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: ZaMH0vvplfa1
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: fOvt8cf86f2V
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: sfC1fi5pyJQ0
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: ZjaMWJlQbmdi
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: zUXfq7qtZeju
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: KxPJVlDjaLTx
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: Se9cGQQBM9H2
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: uD4OL0L64SDI
+          title: "What do you *dislike* \U0001F44E about *styled-components*?"
+          ref: styled_components_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: hQcSqfTRrbc1
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: qx9bj9V9cL7w
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: Fydswb5CLAHz
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: L2q7ZAO2CWh0
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: GSjtsrpnHMZK
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: v69Ccagjm5uU
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: K99ET0qndRy5
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: JQx9e4V69Brb
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: LH5Nzl0i1G92
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: kA3m2skLvnkH
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: dFVlApDIJZ1n
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: Dj9W6q0NMQM5
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: Jb2QaO1Qk9Dy
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: ZgmQ8vjOEnCB
+          title: Other styling options (please add a line break between each option)
+          ref: styling_other
+          validations:
+            required: false
+          type: long_text
+    type: group
+  - id: YRtwPzcfLiXe
+    title: UI Kits
+    ref: ui_kits
+    properties:
+      description: Do you use pre-made UI Kits?
+      show_button: true
+      button_text: Continue
+      fields:
+        - id: ngnRxabSf5RG
+          title: material-ui
+          ref: material_ui_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: QZoY4FkVCHd6
+                ref: never_heard
+                label: I've never heard of it
+              - id: UZ0nsszx2d5c
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: BVYoIl0MY7lE
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: lSG3H0iA0tpF
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: EeH4mwVWpLQm
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: DPLrlnUtlwKX
+          title: "What do you *like* \U0001F44D about *material-ui*?"
+          ref: material_ui_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: ay5rOrtg6aay
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: oVZg8TpAprhU
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: NE3ZM46YatIK
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: kzzVKmqToCEW
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: xx6JQBfqE9An
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: FiJ8znKDWiqt
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: Hz7M34fY9hNd
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: J8DVIC7TnmLR
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: AaobR1GHopvG
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: eBWiqDi3wbe7
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: pcKb9cZCSAwu
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: cZk7Ipfniaey
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: mpDhqJfz4CyD
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: FssK4bwT0SWw
+          title: "What do you *dislike* \U0001F44E about *material-ui*?"
+          ref: material_ui_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: TyeJiad3q3dq
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: ApPj2aVHK15j
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: VwVzTrxB4bgh
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: CMsvA0vXMexd
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: VOG1zpkirr3k
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: nisycOrmMuak
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: iAGhIMqaayTq
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: TTXJT8nCSXZP
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: cXRJbY1OfkLu
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: ZWVrchvrP03i
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: gCDEzYf0MY3v
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: pORiP7UsgsNm
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: aXNwwl1XVxtZ
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: OQL4h5IwHItn
+          title: react-bootstrap
+          ref: react_bootstrap_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: x4YwEzPzrBiA
+                ref: never_heard
+                label: I've never heard of it
+              - id: ujogTRbA7RBE
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: D70BmnsFXpjO
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: z6KNaaJiuVqr
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: JHG7xbrJMECX
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: cIksWX4WtDwr
+          title: "What do you *like* \U0001F44D about *react-bootstrap*?"
+          ref: react_bootstrap_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: RKlzzSaEj0WP
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: WShwTQCx8tTH
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: CUxNyzO6Jwsm
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: UnyyNTyYCkE7
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: WMSulbJjd8oU
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: byjuQjgVK8dw
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: tZiWW5HALRXs
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: B4SNw3hodFd9
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: VsJsWA7k6FFw
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: CuUfHJYd3jlR
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: ltNcZszPAUb7
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: xnZMPlCBtLky
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: BCv3FCo3icVY
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: DEVV9oYQTqVf
+          title: "What do you *dislike* \U0001F44E about *react-bootstrap*?"
+          ref: react_bootstrap_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: K39YCWhGA1N6
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: VgJPBCON9LTB
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: HaIg5CFopaEs
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: If8hlLQB5eLH
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: osrwObn0YvIX
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: OvGLevAngA59
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: jr7Nn8PG2pBT
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: e0wPXNYnLbpX
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: tjOonI7E8rLp
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: KrpBuzobuChY
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: ICh88TesT7Nb
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: EsjJruA1nGxT
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: H0FhmvwMaX2D
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: TpWIsLXOU2n1
+          title: Blueprint
+          ref: blueprint_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: zujIUSeadOPV
+                ref: never_heard
+                label: I've never heard of it
+              - id: F8TS8qDu7lDv
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: A0X3zxwkf45l
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: HrywDo5zHsgz
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: AccXshEKcFnV
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: bZh58h9kLmu3
+          title: "What do you *like* \U0001F44D about *Blueprint*?"
+          ref: blueprint_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: kcBzcaTwIDVV
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: C1tKAtPz75sW
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: qxXKrxg7lDW0
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: jaoZqvDu0fA2
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: Bdp81C75yzPc
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: EJrvsQDLbRGQ
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: r1CnqxEZGO9B
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: ANnSuOuLGGqf
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: EDMpZDF62nQh
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: oS6QxK4Idabw
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: AWsjIiUlxI0W
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: BbVVehoI3oa0
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: OFIcGloTCSOn
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: mePuWx1XXs9f
+          title: "What do you *dislike* \U0001F44E about *Blueprint*?"
+          ref: blueprint_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: iJGXLN2Z0k3t
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: xKIgkMLHG8XK
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: zRBQcsYLfRNU
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: Dovdc13ZOFNM
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: bxYiYbcUqzGY
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: zBVn4c17rQJZ
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: iq7rx0hh9Wqr
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: IWsCJLaGOGVX
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: jcDfCkm27fDF
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: iP5QltTLg3vw
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: gxIA2vGYUM0o
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: bxM1KOgmmgUc
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: C01Ije6X9GBw
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: ydBRFXWGbwKm
+          title: Semantic UI React
+          ref: semantic_ui_react_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: fiVjttG9kx7x
+                ref: never_heard
+                label: I've never heard of it
+              - id: f0DYv3vkrIqL
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: FlVz4EOKZpz6
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: ARLiNVDoKP1r
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: GHcA3wV2pLId
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: MvrXRhftI8KS
+          title: "What do you *like* \U0001F44D about *Semantic UI React*?"
+          ref: semantic_ui_react_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: B0O7bEQsKV2m
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: ympa0z9YBOOP
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: oJ6lLHvLQxJs
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: FZ5TD14aCfvo
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: RdexMYiM214X
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: DefBdWmoxp4j
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: f6opKc7hNfVg
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: dyqxclE4rC9o
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: PKfxXgdoKmu0
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: NrsaEvFw1U1I
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: WJUjQ4Tltwc0
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: jg6khmZdwurd
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: DwTCEYSSXP8d
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: Mg6xyOSDlAhD
+          title: "What do you *dislike* \U0001F44E about *Semantic UI React*?"
+          ref: semantic_ui_react_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: tzv2p4xuG4Sj
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: Gwaan2DA5Km8
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: UTkB3o9dECrl
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: JvzrtU7VuSpg
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: DNAcocHnxC1Z
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: zxHZj8Yw4Thn
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: HwDJFhAk6t6h
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: xsLwbGbh5NMU
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: duSfeQjsbiJU
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: GxZiNuj4U2bV
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: NgHVyDrezyOl
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: DyCk3k32LHx7
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: VJYPiIshqYym
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: JSjLX1tV70BC
+          title: React Toolbox
+          ref: react_toolbox_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: B2WjfhsYJ6pb
+                ref: never_heard
+                label: I've never heard of it
+              - id: dvBTDm03XcoK
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: F1kU4aslOuEY
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: RdyLrArXUNIg
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: gpegOJPuaxUZ
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: LmNIomBhtCtv
+          title: "What do you *like* \U0001F44D about *React Toolbox*?"
+          ref: react_toolbox_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: PuclvHYechRl
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: sWLZgbN7DT8J
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: LKmhoB1AdJA1
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: PuRo3e2kkjqQ
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: PmbjTE1WZ8Yp
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: yJHOdaOusvz5
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: PosGoZGGkGFi
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: lMEAzfbMOOcB
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: RxrkvVefTnDR
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: IeQW0PBZJaoh
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: G1O3oGBbeAla
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: jrHPK6X0LHfM
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: tKQwZ2PHEwSt
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: m0XEDCoohD7w
+          title: "What do you *dislike* \U0001F44E about *React Toolbox*?"
+          ref: react_toolbox_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: JJZIUIDlj4vU
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: JowkMPqEtlwv
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: MzE8vBGhY4JP
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: fYnUwwqAJGpR
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: KqXjIr3Shj6O
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: BMbCL5CwCDOC
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: t985FMmZe4Bi
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: D65HPgVTKEO3
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: NHimx1dS1Ro7
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: dXRi5cRJoukx
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: LymrcTZpqikj
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: iMjwLVJks1o7
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: pmuc2aFe22Za
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: P5Clt1TRSql1
+          title: React Desktop
+          ref: react_desktop_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: xoNpghYTDKc1
+                ref: never_heard
+                label: I've never heard of it
+              - id: ICaSf9N6Z1UF
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: Mu9nRjFMgk56
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: xvhwqY1sY4NA
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: wjSfmQH2XPHn
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: lpPPsKDAJQZi
+          title: "What do you *like* \U0001F44D about *React Desktop*?"
+          ref: react_desktop_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: DOwZbPVpUPzy
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: JGlmM1bM8e17
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: Uo8xWH1mCmXb
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: wPEAG9TvrWVI
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: eOxwxyv1PeCm
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: hkqMLwP2vEM5
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: uWnoo0Bvqrt1
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: WYlwDXqV8mbp
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: Wu1wMSJ3XKML
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: vR581CZpmrR5
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: C9EWpNVRNUmY
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: Q41cv6Qn5Vmt
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: sginry8mjYOF
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: tl2DTpQcy1na
+          title: "What do you *dislike* \U0001F44E about *React Desktop*?"
+          ref: react_desktop_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: gtJZYHhhfuz1
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: C7MvgyYA6kCZ
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: p8Q5ZDGCtIzn
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: Y6YYQ6C9x1Tg
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: wRQvWUPtLk0n
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: eYcS6tvtHqcg
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: XdZLesO1sHV4
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: sECo8plHeBos
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: cUkOVM7MUHTS
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: RBx7OfsLthaY
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: Kwcr4sByXLI9
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: dxltEeMxv2cg
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: cFFAH2G312Cz
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: VwOyo0HinqFL
+          title: OnsenUI
+          ref: onsen_ui_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: jrobc4sVOmn9
+                ref: never_heard
+                label: I've never heard of it
+              - id: mLC1v8Y77bEv
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: CFGTNyZ0h5VU
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: y97KT15kyF5D
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: JZjw7XFDSKtn
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: wiM9CX8bYk8g
+          title: "What do you *like* \U0001F44D about *OnsenUI*?"
+          ref: onsen_ui_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: T9pMSUgPiDkI
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: rHMzHDlJN0yM
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: QDYiar7MPiga
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: x8reZQLxcL5M
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: EH1UaRy1SMFp
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: a2r5UBOxW2AU
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: QKRJAY1I6d44
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: AfpZGldDrlfr
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: vBsDlIkkyyWl
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: XqjhpICJszkA
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: EU8uA51NlzEM
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: uDpkCYUQynYf
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: CtmRqVt3Wd0p
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: XkNA4T081cFP
+          title: "What do you *dislike* \U0001F44E about *OnsenUI*?"
+          ref: onsen_ui_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: utsU25vymulv
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: uohzyZISyYlr
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: PO6PvykNmddv
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: poZBYieEpShG
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: es5CwN4FqyYU
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: pvsww40MmLLO
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: QEGcUkpLIau0
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: CmU5qwpxf3nZ
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: VvWuTaJtcsec
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: ibmOpmGsN5qy
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: L1DCWvcIWoyh
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: fdxjQn6xBCJ3
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: oShFqK3IQzLi
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: z0KvfHdvRQ0G
+          title: Evergreen
+          ref: evergreen_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: VwLGMNK5X5kY
+                ref: never_heard
+                label: I've never heard of it
+              - id: cFyt0BHF5R1s
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: sx1Nkp7ml3o6
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: yCGHgLSuc86Q
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: dm0Tfav8zzJ4
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: yCJpoh7EMePq
+          title: "What do you *like* \U0001F44D about *Evergreen*?"
+          ref: evergreen_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: CHMsu80GIi2Z
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: G8VriCrYgSjk
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: tC9SIAFwuLRG
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: JfxNCEhWjOkp
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: rBXF519WZwNa
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: hR1UINSpNXIo
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: CSS9vOSO7B4y
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: a1XsX01OWar0
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: jsXiZ1vBne3G
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: sCK80gzHheIG
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: iB75NdE0QbhJ
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: GUHPHZFtQAqc
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: Dm9o9WIVI1xG
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: UIaszJUUlPEK
+          title: "What do you *dislike* \U0001F44E about *Evergreen*?"
+          ref: evergreen_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: rfIUUYCYtNEg
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: HFCWy3RzZLiW
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: nRQzY78w3HM5
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: GXcA2bALZs7u
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: OlnvKAbe6PPI
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: nLx4uxTRZtZ5
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: VJivhGJrip01
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: bQd2Z1ENl9UT
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: xIwm7mFYEt4q
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: mS9ZhXz4yXxR
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: bQpRUScDmxWL
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: wUYmURBg442w
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: OTJSmBz81Bas
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: nWRIg8JGPVjZ
+          title: reactstrap
+          ref: reactstrap_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: OIQ7yXEmC3ko
+                ref: never_heard
+                label: I've never heard of it
+              - id: zvylucpzFdwV
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: E9h3QSJMkOtS
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: watw0eA0xvqP
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: uxQYPSB9DNc6
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: qjfa5v7LwqoF
+          title: "What do you *like* \U0001F44D about *reactstrap*?"
+          ref: reactstrap_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: vF9XTSEBDyKL
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: uJB6fSI16hMH
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: d4PnToFFPg7l
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: AcfKhOys3dlH
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: gnHpaCI9FIcE
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: NRBCi3vjdKcL
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: sFbOvu7J60oC
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: RfDroOaLIwFr
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: upTsL0A2n46V
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: RXQf2fvmN4C3
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: Iya4hkcdE5VM
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: l83Iy0uP3eIX
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: LunplHTJjmfc
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: RnGuqyMqg1Fq
+          title: "What do you *dislike* \U0001F44E about *reactstrap*?"
+          ref: reactstrap_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: GUtQGTcIb9fJ
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: du7aIigzBrsP
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: rkzgwM6QHZdJ
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: RgZyVrlbwIpF
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: mbdeXBYXwqnU
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: NY9FIAYPtMmI
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: q3spPKB0d2hj
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: SVDvY98J0rre
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: GFaTyTnM88lR
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: sSKAs6YzhN8r
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: rhdxBvG1ehUC
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: bR4dKnSUoNSD
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: mCkJhZ5ytHWh
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: fwS6RUyrrwXx
+          title: Rebass
+          ref: rebass_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: MykbdKkn6JHz
+                ref: never_heard
+                label: I've never heard of it
+              - id: khYDeqYYSLfp
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: ueK4E8Ciw2ym
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: lG2BkI8OLSOA
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: XoWOWkBWHsAV
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: G0SgOC657e2U
+          title: "What do you *like* \U0001F44D about *Rebass*?"
+          ref: rebass_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: Gd6roBmZe6VC
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: zAFYUxUfJVZX
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: hLcCWrnRM3l6
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: ffSHTnaGT4xl
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: OuA5vfWwSMJ1
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: oRKDM0sKhXtb
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: Hw8SRdgQdjuk
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: t5iUHJMaXPHr
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: T1AFdcnnCKQa
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: ElCN1XHMNaEf
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: u7sIC0f35ibs
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: nkZzNs0r2MWn
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: xTpC1FIyHRTb
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: DtM6fWR8ddOy
+          title: "What do you *dislike* \U0001F44E about *Rebass*?"
+          ref: rebass_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: r0Iq1mlA5EJl
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: TqQMoTDQgDet
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: hn3NB6AdbD1E
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: m9wm39MQPqN9
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: bKgDczR142I7
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: XsFFxl3LVtyz
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: Tlj7VFiZyMnE
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: LFGGZlwUsptV
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: qegYNrwSHAws
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: BiMEGc6rjkci
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: f6XDfStxx943
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: alPsFKMXfdkf
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: IVjGlQ2Kntwm
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: xHdSbTzzKQEs
+          title: Grommet
+          ref: grommet_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: SsWYbIb8XyJS
+                ref: never_heard
+                label: I've never heard of it
+              - id: ffo5OZmpZ83N
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: Q9v8XnwtVCgZ
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: sWXtfJl4cKea
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: kYogoxtOITck
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: lebrWgOCIyDb
+          title: "What do you *like* \U0001F44D about *Grommet*?"
+          ref: grommet_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: ZaPPKWp8IqLa
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: sPCWXkbd6PKn
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: rRk9yxfiKm13
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: yN1fRCHZ6Pc6
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: ZLU5kH8KnCIJ
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: y8xPMc1reRY2
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: ihOhtRTWfUgR
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: qHId0DdDKvcM
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: fTLfbW01y7Jd
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: Gr8hcHl5gMGT
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: vVeMemZPduzr
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: PEjzXqKj8Iin
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: JXTMNt8ngAFi
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: wJJaD1J569Qr
+          title: "What do you *dislike* \U0001F44E about *Grommet*?"
+          ref: grommet_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: rhBdzF6wy7iv
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: qIwcrWCER0pa
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: YT7w96uZVoYy
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: tMjfVQPliEyI
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: SvTdtg0TIaxJ
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: z14LWJ8LXWM3
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: XGuhsgTs6hOP
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: SWu30NaB4GZS
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: wMEILFK9c7aA
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: xQsmocLF2YJM
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: N8mfJ7nzX853
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: K8NecHUE8Uu4
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: b8pC2u5PTg4z
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: q9KEIhmwdvu1
+          title: Elemental UI
+          ref: elemental_ui_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: qB0eT05bO45Z
+                ref: never_heard
+                label: I've never heard of it
+              - id: r5hwwtQ4AQkN
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: qTvbcE0fW6QW
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: GcxSUlgN1qlS
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: IY12ofv3Nn4f
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: uqI6cPQdGAQG
+          title: "What do you *like* \U0001F44D about *Elemental UI*?"
+          ref: elemental_ui_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: dNBLL3dNfmff
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: A8iuwhuRzWBP
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: J5rjDk83g9id
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: OZTfuJEStJP3
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: sHaPnL3KjCSp
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: agtSRK9FzMlL
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: rcAhVwv2CKxg
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: YkxxsPmgRpkO
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: xrg38V2ey1BY
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: CkIuv410UQJw
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: ybt0weXAgxhY
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: Gzpp56rIKCqc
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: RLSmueofS8X8
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: cfSJeYstC2gX
+          title: "What do you *dislike* \U0001F44E about *Elemental UI*?"
+          ref: elemental_ui_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: JXv1FP5WsqSd
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: ateR8RFP9TKB
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: U7TNR4bfx6C2
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: afNnrNSX7qaU
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: bD4ff8cPJY1g
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: fvyFVZDSDC89
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: MmeqgtVYL97Q
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: SDj3s1A8nmPP
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: P9LJ3f28GKlA
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: P1XslSvORUUT
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: xrELfPeM23BT
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: xzX2i65Guwdg
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: u2FjWQz504DA
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: cu5Ko8SDIyiS
+          title: RSuite
+          ref: rsuite_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: iZUO1hQjOS4B
+                ref: never_heard
+                label: I've never heard of it
+              - id: M2jgoRElL6uA
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: m7rCzgb6M372
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: ScaFx9m49kcj
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: ZJhCbxua2QEX
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: FybgHcILPTCy
+          title: "What do you *like* \U0001F44D about *RSuite*?"
+          ref: rsuite_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: dWYOugCA7C4D
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: VSwscEyIf8Od
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: tIdMcuwE6yrB
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: UGsA5FmF7bjG
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: SXxcBtzkxZel
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: YLBWjafIIE4F
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: CLBYMCMXNAMB
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: ZcS0ZxEZMiam
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: Vzg6QonhxpKa
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: w3Z0XAUwumpD
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: gjRqi4ggubda
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: wdQHRSjuRuT9
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: yPc1fmQnaqez
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: s8MEslIAW8DB
+          title: "What do you *dislike* \U0001F44E about *RSuite*?"
+          ref: rsuite_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: n8Ng8cQ7cnYr
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: e0haKPPcAwPp
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: YyDZr4I0dob2
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: EJpnPvjFKpeQ
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: y0reMHE9udl4
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: DvFQBkZxXknn
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: G1gnxZ9ixE2z
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: JY27ernsRmnf
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: bsDuK8cmGmfw
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: mP3E0X1neooy
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: EkaXL02OG48p
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: GZriR6eEsScK
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: hgd8CzVu13Os
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: tAIbFrjgOzXK
+          title: Belle
+          ref: belle_usage
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: mThH3TtkBUe2
+                ref: never_heard
+                label: I've never heard of it
+              - id: kJkKr8qfDFaY
+                ref: not_interested
+                label: 'I''ve HEARD of it, and am NOT interested'
+              - id: whHcTOxCU1UD
+                ref: interested
+                label: 'I''ve HEARD of it, and WOULD like to learn it'
+              - id: MXqXtmnQr8zz
+                ref: would_use
+                label: 'I''ve USED it before, and WOULD use it again'
+              - id: x4jcPkYBI28p
+                ref: would_not_use
+                label: 'I''ve USED it before, and would NOT use it again'
+          validations:
+            required: false
+          type: multiple_choice
+        - id: VmtDnEeo9kPp
+          title: "What do you *like* \U0001F44D about *Belle*?"
+          ref: belle_like
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: n4YTqEe0Hoes
+                ref: elegant_programming_style_patterns
+                label: ⚙️ Elegant programming style & patterns
+              - id: aTjYoTAKv1L6
+                ref: robust_less_error_prone_code
+                label: "\U0001F41E Robust, less error-prone code"
+              - id: YRwBkm1xt28E
+                ref: rich_package_ecosystem
+                label: "\U0001F381 Rich package ecosystem"
+              - id: DWP7rwoofyrL
+                ref: fast_performance
+                label: ⚡ Fast performance
+              - id: r1e7i9SN0T8a
+                ref: well_established_option
+                label: "\U0001F3DB️ Well-established option"
+              - id: tUCb4ukywoAn
+                ref: easy_learning_curve
+                label: "\U0001F476 Easy learning curve"
+              - id: l2yKb52y0MBg
+                ref: powerful_developer_tooling
+                label: "\U0001F527 Powerful developer tooling"
+              - id: LHbPTEErBDWJ
+                ref: good_documentation
+                label: "\U0001F4D6 Good documentation"
+              - id: gSG9VWpj7gmR
+                ref: backed_by_a_great_team_company
+                label: "\U0001F46B Backed by a great team/company"
+              - id: FW8eHRYmCiEg
+                ref: simple_lightweight
+                label: "\U0001F388 Simple & lightweight"
+              - id: mOngYQNV4p4o
+                ref: growing_momentum_popularity
+                label: "\U0001F4C9 Growing momentum/popularity"
+              - id: XjDCb1J4ePiw
+                ref: full_featured_powerful
+                label: "\U0001F579️ Full-featured & powerful"
+              - id: CTUcUzV35ry3
+                ref: stable_backwards_compatible
+                label: ⚖️ Stable & backwards-compatible
+          validations:
+            required: false
+          type: multiple_choice
+        - id: kOSWk3UspzwA
+          title: "What do you *dislike* \U0001F44E about *Belle*?"
+          ref: belle_dislike
+          properties:
+            randomize: false
+            allow_multiple_selection: true
+            allow_other_choice: true
+            vertical_alignment: true
+            choices:
+              - id: AcWMC6AMMJss
+                ref: clumsy_programming_style
+                label: ⚙️ Clumsy programming style
+              - id: FNbnAXnHD9Xq
+                ref: buggy_error_prone_code
+                label: "\U0001F41E Buggy, error-prone code"
+              - id: hlKCNlGje61E
+                ref: poor_performance
+                label: ⚡ Poor performance
+              - id: xAiwPkhrJke3
+                ref: small_package_ecosystem
+                label: "\U0001F381 Small package ecosystem"
+              - id: zCM74qBlTcL5
+                ref: new_untested_option
+                label: "\U0001F3DB️ New untested option"
+              - id: UHxYhe74XBB9
+                ref: hard_learning_curve
+                label: "\U0001F476 Hard learning curve"
+              - id: MUl3A2XwIBzn
+                ref: lacking_developer_tooling
+                label: "\U0001F527 Lacking developer tooling"
+              - id: YYpLsCBx9Dxk
+                ref: bad_documentation
+                label: "\U0001F4D6 Bad documentation"
+              - id: sf08YqPipt1F
+                ref: concerns_about_the_team_company
+                label: "\U0001F46B Concerns about the team/company"
+              - id: jZvAWNfVpJpp
+                ref: bloated_complex
+                label: "\U0001F388 Bloated & complex"
+              - id: e36gbDzS1B1L
+                ref: diminishing_momentum_popularity
+                label: "\U0001F4C9 Diminishing momentum/popularity"
+              - id: g4pW166YPRWz
+                ref: limited_lacking_in_features
+                label: "\U0001F579️ Limited & lacking in features"
+              - id: zpr38NQ0UbyS
+                ref: fast_changing_breaks_often
+                label: ⚖️ Fast-changing & breaks often
+          validations:
+            required: false
+          type: multiple_choice
+        - id: LsF2H7zGzyBD
+          title: Other UI kits options (please add a line break between each option)
+          ref: ui_kits_other
+          validations:
+            required: false
+          type: long_text
+    type: group
+  - id: v0OEYj8JMfd1
+    title: Opinion Questions
+    ref: opinions
+    properties:
+      description: How do you feel about the current state of React?
+      show_button: true
+      button_text: Continue
+      fields:
+        - id: TooCZWyJAdmg
+          title: React is easy to learn
+          ref: opinion_easy_to_learn
+          properties:
+            steps: 5
+            start_at_one: false
+            labels:
+              left: Strongly Disagree
+              center: Neutral
+              right: Strongly Agree
+          validations:
+            required: false
+          type: opinion_scale
+        - id: Hd4NQ9yE6zAq
+          title: React is suitable for large projects
+          ref: opinion_suitable_for_large_projects
+          properties:
+            steps: 5
+            start_at_one: false
+            labels:
+              left: Strongly Disagree
+              center: Neutral
+              right: Strongly Agree
+          validations:
+            required: false
+          type: opinion_scale
+        - id: ebltEmOYydyS
+          title: I'm confident about the future of React
+          ref: opinion_confident_about_future
+          properties:
+            steps: 5
+            start_at_one: false
+            labels:
+              left: Strongly Disagree
+              center: Neutral
+              right: Strongly Agree
+          validations:
+            required: false
+          type: opinion_scale
+    type: group
+  - id: SqmFCkQbGOkI
+    title: About You
+    ref: about_you
+    properties:
+      description: Let's get to know the real you.
+      show_button: true
+      button_text: Continue
+      fields:
+        - id: GNJ1Q7q4FY00
+          title: Your Gender
+          ref: gender
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: Qq67Mrd23xFp
+                ref: female
+                label: Female
+              - id: cNYwDRjErQSW
+                ref: male
+                label: Male
+              - id: I84WRm0oKvVG
+                ref: non_binary
+                label: Non-Binary/Third Gender
+              - id: qjqhcGvV1KlX
+                ref: prefer_not_to_say
+                label: Prefer not to say
+          validations:
+            required: false
+          type: multiple_choice
+        - id: Ev4I6AAs3qb2
+          title: Your Country
+          ref: country
+          properties:
+            alphabetical_order: true
+            choices:
+              - label: Afghanistan
+              - label: Albania
+              - label: Algeria
+              - label: American Samoa
+              - label: Andorra
+              - label: Angola
+              - label: Anguilla
+              - label: Antarctica
+              - label: Antigua and Barbuda
+              - label: Argentina
+              - label: Armenia
+              - label: Aruba
+              - label: Australia
+              - label: Austria
+              - label: Azerbaijan
+              - label: 'Bahamas, The'
+              - label: Bahrain
+              - label: Bangladesh
+              - label: Barbados
+              - label: Belarus
+              - label: Belgium
+              - label: Belize
+              - label: Benin
+              - label: Bermuda
+              - label: Bhutan
+              - label: Bolivia
+              - label: Bosnia and Herzegovina
+              - label: Botswana
+              - label: Bouvet Island
+              - label: Brazil
+              - label: British Indian Ocean Territory
+              - label: British Virgin Islands
+              - label: Brunei
+              - label: Bulgaria
+              - label: Burkina Faso
+              - label: Burma
+              - label: Burundi
+              - label: Cambodia
+              - label: Cameroon
+              - label: Canada
+              - label: Cape Verde
+              - label: Cayman Islands
+              - label: Central African Republic
+              - label: Chad
+              - label: Chile
+              - label: China
+              - label: Christmas Island
+              - label: Cocos (Keeling) Islands
+              - label: Colombia
+              - label: Comoros
+              - label: 'Congo, Democratic Republic of the'
+              - label: 'Congo, Republic of the'
+              - label: Cook Islands
+              - label: Costa Rica
+              - label: Cote d'Ivoire
+              - label: Croatia
+              - label: Cuba
+              - label: Curacao
+              - label: Cyprus
+              - label: Czech Republic
+              - label: Denmark
+              - label: Djibouti
+              - label: Dominica
+              - label: Dominican Republic
+              - label: Ecuador
+              - label: Egypt
+              - label: El Salvador
+              - label: Equatorial Guinea
+              - label: Eritrea
+              - label: Estonia
+              - label: Ethiopia
+              - label: Falkland Islands (Islas Malvinas)
+              - label: Faroe Islands
+              - label: Fiji
+              - label: Finland
+              - label: France
+              - label: 'France, Metropolitan'
+              - label: French Guiana
+              - label: French Polynesia
+              - label: French Southern and Antarctic Lands
+              - label: Gabon
+              - label: 'Gambia, The'
+              - label: Gaza Strip
+              - label: Georgia
+              - label: Germany
+              - label: Ghana
+              - label: Gibraltar
+              - label: Greece
+              - label: Greenland
+              - label: Grenada
+              - label: Guadeloupe
+              - label: Guam
+              - label: Guatemala
+              - label: Guernsey
+              - label: Guinea
+              - label: Guinea-Bissau
+              - label: Guyana
+              - label: Haiti
+              - label: Heard Island and McDonald Islands
+              - label: Holy See (Vatican City)
+              - label: Honduras
+              - label: Hong Kong (SAR China)
+              - label: Hungary
+              - label: Iceland
+              - label: India
+              - label: Indonesia
+              - label: Iran
+              - label: Iraq
+              - label: Ireland
+              - label: Isle of Man
+              - label: Israel
+              - label: Italy
+              - label: Jamaica
+              - label: Japan
+              - label: Jersey
+              - label: Jordan
+              - label: Kazakhstan
+              - label: Kenya
+              - label: Kiribati
+              - label: 'Korea, South'
+              - label: Kosovo
+              - label: Kuwait
+              - label: Kyrgyzstan
+              - label: Laos
+              - label: Latvia
+              - label: Lebanon
+              - label: Lesotho
+              - label: Liberia
+              - label: Libya
+              - label: Liechtenstein
+              - label: Lithuania
+              - label: Luxembourg
+              - label: Macau (SAR China)
+              - label: Macedonia
+              - label: Madagascar
+              - label: Malawi
+              - label: Malaysia
+              - label: Maldives
+              - label: Mali
+              - label: Malta
+              - label: Marshall Islands
+              - label: Martinique
+              - label: Mauritania
+              - label: Mauritius
+              - label: Mayotte
+              - label: Mexico
+              - label: 'Micronesia, Federated States of'
+              - label: Moldova
+              - label: Monaco
+              - label: Mongolia
+              - label: Montenegro
+              - label: Montserrat
+              - label: Morocco
+              - label: Mozambique
+              - label: Namibia
+              - label: Nauru
+              - label: Nepal
+              - label: Netherlands
+              - label: New Caledonia
+              - label: New Zealand
+              - label: Nicaragua
+              - label: Niger
+              - label: Nigeria
+              - label: Niue
+              - label: Norfolk Island
+              - label: Northern Mariana Islands
+              - label: Norway
+              - label: Oman
+              - label: Pakistan
+              - label: Palau
+              - label: Panama
+              - label: Papua New Guinea
+              - label: Paraguay
+              - label: Peru
+              - label: Philippines
+              - label: Pitcairn Islands
+              - label: Poland
+              - label: Portugal
+              - label: Puerto Rico
+              - label: Qatar
+              - label: Reunion
+              - label: Romania
+              - label: Russia
+              - label: Rwanda
+              - label: Saint Barthelemy
+              - label: 'Saint Helena, Ascension, and Tristan da Cunha'
+              - label: Saint Kitts and Nevis
+              - label: Saint Lucia
+              - label: Saint Martin
+              - label: Saint Pierre and Miquelon
+              - label: Saint Vincent and the Grenadines
+              - label: Samoa
+              - label: San Marino
+              - label: Sao Tome and Principe
+              - label: Saudi Arabia
+              - label: Senegal
+              - label: Serbia
+              - label: Seychelles
+              - label: Sierra Leone
+              - label: Singapore
+              - label: Sint Maarten
+              - label: Slovakia
+              - label: Slovenia
+              - label: Solomon Islands
+              - label: Somalia
+              - label: South Africa
+              - label: South Georgia and the Islands
+              - label: South Sudan
+              - label: Spain
+              - label: Sri Lanka
+              - label: Sudan
+              - label: Suriname
+              - label: Svalbard
+              - label: Swaziland
+              - label: Sweden
+              - label: Switzerland
+              - label: Syria
+              - label: 'Taiwan, Province of China'
+              - label: Tajikistan
+              - label: Tanzania
+              - label: Thailand
+              - label: Timor-Leste
+              - label: Togo
+              - label: Tokelau
+              - label: Tonga
+              - label: Trinidad and Tobago
+              - label: Tunisia
+              - label: Turkey
+              - label: Turkmenistan
+              - label: Turks and Caicos Islands
+              - label: Tuvalu
+              - label: Uganda
+              - label: Ukraine
+              - label: United Arab Emirates
+              - label: United Kingdom
+              - label: United States
+              - label: United States Minor Outlying Islands
+              - label: Uruguay
+              - label: Uzbekistan
+              - label: Vanuatu
+              - label: Venezuela
+              - label: Vietnam
+              - label: Virgin Islands
+              - label: Wallis and Futuna
+              - label: West Bank
+              - label: Western Sahara
+              - label: Yemen
+              - label: Zambia
+              - label: Zimbabwe
+          validations:
+            required: false
+          type: dropdown
+        - id: hV7tVlt4XWQA
+          title: Company Size
+          ref: company_size
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: z5jWIoMAiyvO
+                ref: '1'
+                label: Just me
+              - id: lpVXIyLmp0jF
+                ref: '1_5'
+                label: 1-5 people
+              - id: AJT9Hu4rRiB6
+                ref: '5_10'
+                label: 5-10 people
+              - id: usVyQRDmnogN
+                ref: '10_20'
+                label: 10-20 people
+              - id: LmR1aaJMPFH4
+                ref: '20_50'
+                label: 20-50 people
+              - id: q3ArZKRt8wGK
+                ref: '50_100'
+                label: 50-100 people
+              - id: QYd0zczJ0cW2
+                ref: '100_1000'
+                label: 100-1000 people
+              - id: YINodQOOezpG
+                ref: more_than_1000
+                label: 1000+ people
+          validations:
+            required: false
+          type: multiple_choice
+        - id: sLdgMbshfFOd
+          title: Yearly Salary
+          ref: salary_range
+          properties:
+            randomize: false
+            allow_multiple_selection: false
+            allow_other_choice: false
+            vertical_alignment: true
+            choices:
+              - id: rpf0b34vHWA8
+                ref: none
+                label: 'I work for free :('
+              - id: JBuXlb5PkrPD
+                ref: '0_10'
+                label: $0-$10k
+              - id: Rp7j6UiNw9uu
+                ref: '10_30'
+                label: $10k-$30k
+              - id: l4ObBnMQVBz7
+                ref: '30_50'
+                label: $30k-$50k
+              - id: RzlJyZSkaol4
+                ref: '50_100'
+                label: $50k-$100k
+              - id: W7IxJSyKn0op
+                ref: '100_200'
+                label: $100k-$200k
+              - id: shgvs60mEa3b
+                ref: 200_more
+                label: $200k+
+          validations:
+            required: false
+          type: multiple_choice
+    type: group
+_links:
+  display: 'https://plouc.typeform.com/to/iUc9zT'

@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules
+
+# Cache
+.cache
+.sass-cache/
+.gatsby-context.js
+
+# IDE
+.idea
+
+# OSX
+.DS_Store
+
+# Secrets
+.env

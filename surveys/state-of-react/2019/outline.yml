@@ -1,0 +1,120 @@
+id: state-of-react
+release: '2019'
+structure:
+  - id: animation
+    type: group
+    title: Animation
+    description: When it comes to animate things in React, which tool do you use?
+    items:
+      - type: tools
+        tools:
+          - id: react_motion
+            label: react-motion
+          - id: react_spring
+            label: react-spring
+      - id: animation_other
+        type: other
+        title: Other animation options (please add a line break between each option)
+  
+  - id: state_management
+    type: group
+    title: State Management
+    description: How do you deal with state management in your React applications?
+    items:
+      - type: tools
+        tools:
+          - id: redux
+            label: redux
+          - id: unstated
+            label: unstated
+          - id: mobx
+            label: mobx
+          - id: apollo_link_state
+            label: apollo-link-state
+          - id: relay
+            label: relay
+      - id: state_management_other
+        type: other
+        title: Other state management options (please add a line break between each option)
+
+  - id: styling
+    type: group
+    title: Styling
+    description: How do you manage styles in your React applications?
+    items:
+      - type: tools
+        tools:
+          - id: styled_components
+            label: styled-components
+      - id: styling_other
+        type: other
+        title: Other styling options (please add a line break between each option)
+
+  - id: ui_kits
+    type: group
+    title: UI Kits
+    description: Do you use pre-made UI Kits?
+    items:
+      - type: tools
+        tools:
+          - id: material_ui
+            label: material-ui
+          - id: react_bootstrap
+            label: react-bootstrap
+          - id: blueprint
+            label: Blueprint
+          - id: semantic_ui_react
+            label: Semantic UI React
+          - id: react_toolbox
+            label: React Toolbox
+          - id: react_desktop
+            label: React Desktop
+          - id: onsen_ui
+            label: OnsenUI
+          - id: evergreen
+            label: Evergreen
+          - id: reactstrap
+            label: reactstrap
+          - id: rebass
+            label: Rebass
+          - id: grommet
+            label: Grommet
+          - id: elemental_ui
+            label: Elemental UI
+          - id: rsuite
+            label: RSuite
+          - id: belle
+            label: Belle
+      - id: ui_kits_other
+        type: other
+        title: Other UI kits options (please add a line break between each option)
+
+  - id: opinions
+    type: group
+    title: Opinion Questions
+    description: How do you feel about the current state of React?
+    items:
+      - id: opinion_easy_to_learn
+        type: agreement
+        title: React is easy to learn
+      - id: opinion_suitable_for_large_projects
+        type: agreement
+        title: React is suitable for large projects
+      - id: opinion_confident_about_future
+        type: agreement
+        title: I'm confident about the future of React
+
+  - id: about_you
+    type: group
+    title: About You
+    description: Let's get to know the real you.
+    items:
+      - id: gender
+        type: gender
+      - id: country
+        type: country
+      - id: company_size
+        type: company_size
+      - id: salary_range
+        type: salary_range
+
